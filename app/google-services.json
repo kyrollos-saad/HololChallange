@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "779239466200",
+    "firebase_url": "https://holol-challange.firebaseio.com",
+    "project_id": "holol-challange",
+    "storage_bucket": "holol-challange.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779239466200:android:e49f225298f85ea0",
+        "android_client_info": {
+          "package_name": "kyrollos.hololchallange"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779239466200-bmu748umqhb71lcqg5k477giv1anvmkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhaznhCqddOfMt36HjobQw2yUJlQhgX1w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

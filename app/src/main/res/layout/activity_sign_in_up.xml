@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kyrollos.hololchallange.SignInUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/login_logo_img_vw"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/clinic_logo" />
+
+        <ImageView
+            android:id="@+id/login_fb_img_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/fb_login" />
+
+        <ImageView
+            android:id="@+id/login_ggl_img_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/ggl_login" />
+
+        <ImageView
+            android:id="@+id/login_lnkdn_img_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:src="@drawable/lndn_login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="── OR SIGN IN ──"
+            android:textSize="26sp" />
+
+        <EditText
+            android:id="@+id/login_email_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="someone@example.com"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/login_pass_edt_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="******"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_signin_butt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="SIGN IN"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login_forgot_pass_txt_vw"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:text="Forgot Password?"
+            android:textSize="22sp"
+            android:textColor="#25E" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="── OR SIGN UP ──"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/login_signup_butt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Create a new Account" />
+
+    </LinearLayout>
+</ScrollView>
